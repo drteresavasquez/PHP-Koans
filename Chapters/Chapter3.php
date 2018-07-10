@@ -116,6 +116,9 @@ class Chapter3 extends Chapter
     public function changingCase($valueOne)
     {
         // CODE HERE
+        $allLower = strtolower($valueOne);
+        $allUpper = strtoupper($valueOne);
+        $firstUpper = ucwords($valueOne);
 
         // DO NOT EDIT BELOW
         return [$allLower, $allUpper, $firstUpper];
@@ -133,7 +136,7 @@ class Chapter3 extends Chapter
     public function searching($valueOne)
     {
         // CODE HERE
-
+        $foundLocation = strpos($valueOne, 'mountain');
         // DO NOT EDIT BELOW
         return $foundLocation;
     }
