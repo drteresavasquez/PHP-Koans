@@ -95,7 +95,11 @@ class Chapter3 extends Chapter
     public function substrings($valueOne)
     {
         // CODE HERE
+        $partOne = substr($valueOne,0,3);
 
+        // first number is the start second number is how many after
+        $partTwo = substr($valueOne,4,5);
+        $partThree = substr($valueOne,-2);
         // DO NOT EDIT BELOW
         return [$partOne, $partTwo, $partThree];
     }
