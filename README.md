@@ -11,7 +11,7 @@ Designed to teach the basics of PHP and inspired by the absolutely awesome http:
 
 # Getting Started
 1. Checkout or fork this repository and make sure you're on the master branch.
-2. Open up a terminal run ```composer install``` from the checked out project to install dependencies.
+2. Open up a terminal run ```php composer.phar install``` from the checked out project to install dependencies.
 3. Run ```php koans.php``` from a terminal and follow the instructions. Re run this command as you solve the problems to see your progress.
 
 #Exercises
